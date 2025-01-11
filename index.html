@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body theme="black">
+    <div class="loaderPart">
+      <div class="loader" id="loader">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <button id="exploreButton">Explore</button>
+    </div>
+
+    <div class="main">
+      <div class="cursor"></div>
+      <div class="cursor-blur"></div>
+
+      <div class="nav section">
+        <h1>Portfolio</h1>
+
+        <i class="bx bx-menu"></i>
+        <div class="side-navbar">
+          <i class="bx bx-window-close"></i>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skill">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contacts">Contacts</a>
+        </div>
+        <div class="nav-part2">
+          <a class="" href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skill">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contacts">Contacts</a>
+        </div>
+      </div>
+
+      <div class="home section" id="home">
+        <div class="home-content">
+          <h2>Hello,It's Me</h2>
+          <h1>Citiz Shrestha</h1>
+          <h3>And I'm a <span class="text"></span></h3>
+          <p>
+            web developer with expertise to create <br />
+            animated website and frontend designs.
+          </p>
+
+          <div class="socials section">
+            <a target="_blank" href="https://github.com/Citizshrestha"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a target="_blank" href="https://x.com/citizShrestha"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/citiz-shrestha-00805b249/"
+              ><i class="bx bxl-linkedin-square"></i
+            ></a>
+            <a target="_blank" href="https://www.instagram.com/citizshrestha99/"
+              ><i class="bx bxl-instagram-alt"></i
+            ></a>
+          </div>
+          <a href="*" class="btn-box">More About Me</a>
+        </div>
+        <div class="pic">
+          <div class="spinner"></div>
+          <div class="borderWrapper">
+            <img
+              src="source/animegenius_bd6b3f86c5d987e6506d22ef43cbcfe9.png"
+              alt="Rotating Border Image"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="about section" id="about">
+        <div class="about-img">
+          <div class="effectdiv"></div>
+          <img src="source/Citiz.jpg" alt="Rotating Border Image" />
+        </div>
+        <div class="about-text">
+          <h2>About <span>Me</span></h2>
+          <h4>Frontend Web Developer!</h4>
+          <p>
+            Hi, I'm Citiz Shrestha, I specialize in frontend development for
+            creating dynamic and visually appealing websites and enjoy bringing
+            ideas to life with code. With over 1 years of experience in web
+            development, I have worked on numerous projects that include
+            building responsive websites, creating animated websites, and
+            optimizing user experiences. My core skills include HTML, CSS,
+            JavaScript, and libraries like GSAP, locomotive JS and learning
+            React Currently.
+          </p>
+        </div>
+      </div>
+
+      <div class="skill section" id="skill">
+        <h1 class="sub-title">My <span>Skills</span></h1>
+
+        <div class="container1" id="Skills">
+          <h1 class="heading1">Technical Skills</h1>
+          <div class="technical-bars">
+            <div
+              class="bar"
+              style="background-image: url(source/Html.png); background-size: cover"
+            >
+              <i
+                class="bx bxl-html5"
+                style="font-size: 3.8rem; color: #e34f26"
+              ></i>
+              <!-- HTML5 (Red) -->
+              <div class="info">
+                <span style="margin-left: 4rem">HTML5</span>
+              </div>
+              <div class="progress-line">
+                <div class="percentage-label">90%</div>
+                <span style="width: 200px"></span>
+              </div>
+            </div>
+
+            <div
+              class="bar"
+              style="
+                background-image: url(source/Css.png);
+                background-size: cover;
+                background-position: center;
+              "
+            >
+              <i class="bx bxl-css3" style="color: #1572b6"></i>
+              <!-- CSS (Blue) -->
+              <div class="info">
+                <span style="margin-left: 4rem" ;>CSS</span>
+              </div>
+              <div class="progress-line">
+                <div class="percentage-label">77%</div>
+                <span style="width: 77%"></span>
+              </div>
+            </div>
+
+            <div
+              class="bar"
+              style="background-image: url(source/JS.jpg); background-size: cover"
+            >
+              <i class="bx bxl-javascript" style="color: #f7df1e"></i>
+              <!-- JavaScript (Yellow) -->
+              <div class="info"><span>JavaScript</span></div>
+              <div class="progress-line">
+                <div class="percentage-label">75%</div>
+                <span style="width: 75%"></span>
+              </div>
+            </div>
+
+            <div
+              class="bar"
+              style="
+                background-image: url(source/Tailwind.png);
+                background-size: cover;
+                background-position: center;
+              "
+            >
+              <i class="bx bxl-tailwind-css" style="color: #06b6d4"></i>
+              <!-- Tailwind CSS (Teal) -->
+              <div class="info"><span>Tailwind CSS</span></div>
+              <div class="progress-line">
+                <div class="percentage-label">62%</div>
+                <span style="width: 62%"></span>
+              </div>
+            </div>
+
+            <div
+              class="bar"
+              style="background-image: url(source/C++.png); background-size: cover"
+            >
+              <i class="bx bxl-c-plus-plus" style="color: #00599c"></i>
+              <!-- C++ (Blue) -->
+              <div class="info"><span style="margin-left: 4rem">C++</span></div>
+              <div class="progress-line">
+                <div class="percentage-label">67%</div>
+                <span style="width: 67%"></span>
+              </div>
+            </div>
+
+            <div
+              class="bar"
+              style="background-image: url(source/Gsap.jpg); background-size: cover"
+            >
+              <div class="info">
+                <span style="margin: 2rem 3rem">GSAP</span>
+              </div>
+              <div class="progress-line" style="margin-top: 14.5rem">
+                <div class="percentage-label" style="margin-top: 0.6rem">
+                  71%
+                </div>
+                <span style="width: 71%"></span>
+              </div>
+            </div>
+            <div
+              class="bar"
+              style="background-image: url(source/React.png); background-size: cover"
+            >
+              <i class="bx bxl-react" style="color: #61dafb"></i>
+              <div class="info">
+                <span style="margin: 3rem 3.5rem">React</span>
+              </div>
+              <div class="progress-line">
+                <div class="percentage-label">44%</div>
+                <span style="width: 44%"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container1">
+          <h1 class="heading1">Professional Skills</h1>
+          <div class="radial-bar">
+            <svg class="circle-bar" viewBox="0 0 200 200">
+              <circle class="bg-circle" cx="100" cy="100" r="100"></circle>
+              <circle
+                class="progress-bar"
+                data-percentage="80"
+                cx="100"
+                cy="100"
+                r="100"
+              ></circle>
+            </svg>
+            <div class="info">
+              <div class="percentage">80%</div>
+              <div class="text">Creativity</div>
+            </div>
+          </div>
+          <div class="radial-bar">
+            <svg class="circle-bar" viewBox="0 0 200 200">
+              <circle class="bg-circle" cx="100" cy="100" r="100"></circle>
+              <circle
+                class="progress-bar"
+                data-percentage="63"
+                cx="100"
+                cy="100"
+                r="100"
+              ></circle>
+            </svg>
+            <div class="info">
+              <div class="percentage">63%</div>
+              <div class="text">Communication</div>
+            </div>
+          </div>
+          <div class="radial-bar">
+            <svg class="circle-bar" viewBox="0 0 200 200">
+              <circle class="bg-circle" cx="100" cy="100" r="100"></circle>
+              <circle
+                class="progress-bar"
+                data-percentage="72"
+                cx="100"
+                cy="100"
+                r="100"
+              ></circle>
+            </svg>
+            <div class="info">
+              <div class="percentage">72%</div>
+              <div class="text">Problem Solving</div>
+            </div>
+          </div>
+          <div class="radial-bar">
+            <svg class="circle-bar" viewBox="0 0 200 200">
+              <circle class="bg-circle" cx="100" cy="100" r="100"></circle>
+              <circle
+                class="progress-bar"
+                data-percentage="88"
+                cx="100"
+                cy="100"
+                r="100"
+              ></circle>
+            </svg>
+            <div class="info">
+              <div class="percentage">88%</div>
+              <div class="text">Team Work</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects" id="projects">
+        <h1><span>{</span>Latest Works<span>}</span></h1>
+        <div class="project-list">
+          <div class="projectelem">
+            <div class="card">
+              <video autoplay muted loop src="source/prism.mp4"></video>
+            </div>
+            <div class="descriptionDiv">
+              <h2>Prism Effect</h2>
+              <p>
+                The Prism Effect website is a modern, visually captivating
+                platform designed to showcase and sell high-quality, trendy
+                goggles and frames. This website is focussed on seek UI and
+                dynamic animations.
+              </p>
+              <p>
+                This project demonstrates my skills in HTML, CSS, JavaScript,
+                and advanced smooth scrolling libraries like Locomotive JS,
+                tailored to create visually appealing and functional websites.
+              </p>
+            </div>
+          </div>
+
+          <div class="projectelem">
+            <div class="descriptionDiv">
+              <h2>Significo</h2>
+              <p>
+                Created a clone of the Significo website to showcase my skills
+                in HTML, CSS, and JavaScript. This project demonstrates
+                attention to design details, smooth animations, and a solid
+                understanding of frontend development techniques for modern web
+                applications.
+              </p>
+            </div>
+            <div class="card card2">
+              <video autoplay muted loop src="source/Significo.mp4"></video>
+            </div>
+          </div>
+
+          <div class="projectelem">
+            <div class="card">
+              <video autoplay muted loop src="source/Duo Studio.mp4"></video>
+            </div>
+            <div class="descriptionDiv">
+              <h2>Duo Studio Website</h2>
+              <p>
+                Duo Studio website using GSAP and Locomotive Scroll, featuring
+                smooth scrolling effects and cool animations. This project
+                highlights expertise in advanced JavaScript libraries and
+                creating visually engaging, dynamic web experiences with
+                seamless interactivity.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contacts" id="contacts">
+        <div class="reachme">
+          <div class="topPart">
+            <h1>Available for freelance opportunities</h1>
+            <h2>Have an exciting project you need help with?</h2>
+            <h3>Send me an email or contact me via instant message!</h3>
+          </div>
+          <div class="bottomPart">
+            <h2>citizshresthaa@gmail.com</h2>
+            <ul class="social">
+              <li>
+                Github
+                <a target="_blank" href="https://github.com/Citizshrestha"
+                  ><i class="bx bxl-github"></i
+                ></a>
+              </li>
+              <li>
+                Instagram
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/citizshrestha99/"
+                  ><i class="bx bxl-instagram-alt"></i
+                ></a>
+              </li>
+              <li>
+                Twitter/X
+                <a target="_blank" href="https://x.com/citizShrestha"
+                  ><i class="bx bxl-twitter"></i
+                ></a>
+              </li>
+              <li>
+                LinkedIn
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/citiz-shrestha-00805b249/"
+                  ><i class="bx bxl-linkedin-square"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="rightPart">
+          <div class="testimonials">
+            <div class="photo"></div>
+            <div class="feedback">
+              <p>
+                Citiz is INCREDIBLE! If you have any doubt about hiring him, ask
+                me – I am really impressed by this guy!
+              </p>
+            </div>
+            <div class="name">
+              <h2>-Sycon Shrestha</h2>
+              <h3>Agile Coach | Speaker | Trainer</h3>
+            </div>
+          </div>
+
+          <div class="copyright">
+            <p>
+              Built from scratch with 💚 © Copyright 2024, CitizShrestha.XYZ
+              <span>All Rights Reserved</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
