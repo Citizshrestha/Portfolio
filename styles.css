@@ -764,19 +764,21 @@ body[theme = 'salmon'] .section{
     perspective: 1000px;
   
   }
-  
-  .card video {
+
+  .card iframe {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
     transform: rotateY(30deg) rotateX(10deg);
     transition: transform 0.3s ease-in-out;
-  }
-  
-  .card video:hover {
+}
+
+.card iframe:hover {
     transform: rotateY(-30deg) rotateX(20deg) scale(1.1);
-  }
+}
+  
+ 
   
   .descriptionDiv {
     max-width: 40rem;
@@ -800,11 +802,11 @@ body[theme = 'salmon'] .section{
     color: #ddd;
   }
   
-  .card2 video{
+  .card2 iframe{
     transform: rotateY(-30deg) rotateX(10deg);
     transition: transform 0.3s ease-in-out;
   }
-  .card2 video:hover{
+  .card2 iframe:hover{
     transform: rotateY(30deg) rotateX(20deg) scale(1.1);
     
   }
@@ -964,6 +966,7 @@ body[theme = 'salmon'] .section{
    
     
   }
+
    .nav i{
     display: block;
     font-size: 4.2rem;
@@ -973,11 +976,17 @@ body[theme = 'salmon'] .section{
     margin-right: 10px;
  
    }
+   .side-navbar{
+    background-color: rgb(4, 6, 4);
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 25%;
+   }
    .side-navbar>a{
-      color: rgb(40, 220, 13);
+      color: #05f2e6;
+      font-size: 2rem;
    }
  .home{
-  padding-left: 2rem;
+  padding-left: 5rem;
   padding-top: 1rem;
  }
    .home-content{
@@ -1020,7 +1029,11 @@ body[theme = 'salmon'] .section{
      width: 14rem;
      position: absolute;
      top: 62%;
-     left: 1%;
+     left: 2%;
+   }
+   .btn-box{
+     margin-left: 5rem;
+     border-radius: 17px;
    }
  
    .spinner{
@@ -1042,11 +1055,13 @@ body[theme = 'salmon'] .section{
     padding-top: 2rem;
     font-size: 2rem;
     white-space: nowrap;
+    margin-left: 5rem;
 
   }
   .about-text h4{
      font-size: 1.3rem;
      white-space: nowrap;
+     margin-left: 3rem;
      
        
   }
@@ -1055,6 +1070,9 @@ body[theme = 'salmon'] .section{
     font-weight: 300;
     color: #fff;
     width: 370px;
+    margin-left: 3rem;
+    width: 88%;
+    line-height: 1.7rem;
   }
 
   .cursor{
@@ -1126,7 +1144,7 @@ body[theme = 'salmon'] .section{
     text-align: center;
   }
 
-  .card video {
+  .card iframe {
     width: 100%;
     height: 90%;
     object-fit: cover;
