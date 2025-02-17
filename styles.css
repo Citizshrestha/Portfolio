@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:  "Neue Machina";
 }
 html , body{
     height: 100%;
@@ -10,6 +9,14 @@ html , body{
     position: relative;
     transition: all ease-out .5s;
     overflow-x: hidden; 
+}
+body {
+  font-family: 'Playfair Display', serif;
+}
+p{
+  font-size: .9rem;
+  font-weight: 400;
+  font-family: monospace;
 }
 :root{
     --red: #FF4500;
