@@ -455,7 +455,7 @@ body[theme = 'salmon'] .section{
 .about-img{
    padding: 6rem;
    position: absolute;
-   right: 5%;
+   right: 2%;
    top: 2%;
 }
 .effectdiv{
@@ -465,7 +465,6 @@ body[theme = 'salmon'] .section{
     background-color: transparent;
     z-index: 6;
     border-radius: 50%;
-    box-shadow: 0 0 25px cyan, 0 0 35px cyan;
 }
 .about-img img{
     height: 18rem;
@@ -878,7 +877,11 @@ body[theme = 'salmon'] .section{
 
 }
 
-
+.social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .social a{
   display: inline-flex;
   justify-content: center;
@@ -931,10 +934,15 @@ body[theme = 'salmon'] .section{
   padding-top: 12rem;
 }
 .feedback p{
-  color: #EF9D71;
+  color: #ef5d0f;
+  font-size: 1.2rem;
+  width:88%;
+  text-align: center;
+  padding-bottom: 1.2rem;
 }
 .name{
   color: #14E956;
+  padding-left: 1rem;
 }
 .name h3{
   color: #fff;
@@ -1175,26 +1183,33 @@ body[theme = 'salmon'] .section{
   .rightPart .photo{
     position: absolute;
     top: 95%;
-    left: 30%;
+    left: 35%;
+  }
+  .feedback p{
+    width: 390px;
+    padding-top: 1.6rem;
+    line-height: 2rem;
+    
   }
   .name{
     position: absolute;
-    top: 155%;
-    left: 12%;
+    top: 172%;
+    left: 26%;
   }
   .copyright{
     margin-top: 17rem;
   }
   .copyright p{
     font-size: 1.2rem;
-    width: 635px;
+    width: 880px;
+    padding-top: 11rem;
   }
   .copyright span{
     font-size: 1.7rem;
      white-space: nowrap;
       position: absolute;
       left: 23%;
-      bottom: -34%;
+      bottom: -35%;
   }
 
   .loaderPart{
