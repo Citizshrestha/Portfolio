@@ -1305,3 +1305,174 @@ body[theme = 'salmon'] .section{
   
 
 }
+
+@media (max-width: 720px) {
+  .nav h1{
+    font-size: 3.2rem;
+    text-align: center;
+    padding-bottom: 3.5rem;
+
+  }
+  #menu{
+     color: rgb(31, 213, 241);
+     position: absolute;
+     right: 0;
+     font-size: 3.6rem;
+     padding-bottom: .6rem;
+  }
+  .home{
+    min-height: 131vh;
+  }
+  
+  .home-content p{
+    font-size: 1.2rem;
+    width: 300px;
+  }
+  .btn-box{
+    margin-bottom:9rem;
+    margin-right: 2.3rem;
+  }
+  #close{
+    font-size: 3.6rem;
+    margin-right: 1rem;
+  }
+  .about{
+    min-height: 65vh;
+  
+  }
+  .about-text {
+   position: absolute;
+   left: -15%;
+  }
+  .about p{
+    font-size: .77rem;
+    line-height: -10px;
+    position: absolute;
+    left: 10%;
+    margin-bottom: 3rem;
+  }
+  .container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    position: relative;
+
+    
+  
+}
+
+.bar1{
+  position: absolute;
+  top: 105%;
+  left: -7%;
+}
+.bar2{
+  position: absolute;
+  top: 105%;
+  right: -10%;
+}
+.bar3{
+  position: absolute;
+  top: 385%;
+  left: -7%;
+}
+.bar4{
+  position: absolute;
+  top: 385%;
+  right: -10%;
+}
+  .heading1{
+    white-space: nowrap;
+    font-size: 2.2rem;
+    padding-left: 5rem;
+  }
+.projects{
+  margin-top: 15rem;
+  position: relative;
+  h1{
+    white-space: nowrap;
+    font-size: 3rem;
+  }
+  .card{
+    height: 300px;
+    margin-top: -2rem;
+  }
+  .descriptionDiv>h2{
+    white-space: nowrap;
+  }
+  .descriptionDiv p{
+    font-size: .77rem;
+    width: 300px;
+  }
+
+
+  .descriptionDiv{
+    margin-left: 1.4rem;
+  }
+  
+
+}
+
+
+.topPart>h1{
+  font-size: 1.34rem;
+  margin-right: 1rem;
+  padding-right: 7rem;
+
+}
+.topPart h2{
+  font-size: 1.3rem;
+  margin-right:2.1rem;
+  padding-right: 8rem;
+  padding-bottom: 1rem;
+}
+.topPart h3{
+  font-size: 1.2rem;
+  margin-right:2.1rem;
+  padding-right: 8rem;
+  text-align: center;
+
+}
+.bottomPart h2{
+  margin-right:2.1rem;
+  padding-right: 8rem;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+.social{
+  margin-left: -2rem;
+  margin-right:12rem;
+  padding-right: 10rem;
+}
+.social li{
+  font-size: 1rem;
+  margin-left: 1rem;
+
+}
+.feedback p{
+  font-size: 1rem;
+  width: 350px;
+  padding-bottom: 18rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;  
+}
+
+.name{
+  margin-top: 5rem;
+
+}
+.copyright>p>span{
+  margin-bottom: -10rem;
+  margin-left: -2rem;
+  font-size: 1.2rem;
+}
+.copyright> p {
+   margin-bottom: 2rem;
+   font-size: 1.37rem;
+   margin-left: 15px;
+  
+  
+}
+
+
+
+}
