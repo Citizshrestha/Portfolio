@@ -1089,7 +1089,9 @@ body[theme = 'salmon'] .section{
     width: 88%;
     line-height: 1.7rem;
   }
-
+  .card{
+    margin-top: -2rem;
+  }
   .cursor{
     display: none;
     
@@ -1161,16 +1163,14 @@ body[theme = 'salmon'] .section{
 
   .card iframe {
     width: 100%;
-    height: 90%;
+    height: 150%;
     object-fit: cover;
     border-radius: 15px;
     transform: rotateY(20deg) rotateX(5deg);
     transition: transform 0.3s ease-in-out;
   }
   
-  .card video:hover {
-    transform: rotateY(-15deg) rotateX(10deg) scale(1.1);
-  }
+
 
 
   .rightPart .feedback{
